@@ -1,0 +1,55 @@
+* {
+	color:white;
+	text-rendering: optimizeLegibility;
+	font-family: sans-serif;
+}
+body {
+	background-color: black;
+}
+
+h1 {
+	font-size: 10em;
+	display: inline;
+}
+
+h2,h3 {
+	font-size: 2em;
+}
+
+h3 {
+	font-style: italic;
+	color:blue;
+	text-decoration: underline;
+}
+
+h4 {
+	font-size:1.5em;
+}
+
+.post {
+	width: 80%;
+}
+
+.game {
+	width:100%;
+}
+
+#profilepic {
+	width:40%;
+	height:auto;
+	margin-left:2%;
+}
+
+a {
+	text-decoration: none;
+	color:indigo;
+}
+
+img {
+	width: 80%;
+	height: auto;
+}
+
+p {
+	font-size: 1em;
+}
