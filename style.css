@@ -2,7 +2,9 @@
 	color:white;
 	text-rendering: optimizeLegibility;
 	font-family: sans-serif;
+	text-align: center;
 }
+
 body {
 	background-color: black;
 }
@@ -28,16 +30,24 @@ h4 {
 
 .post {
 	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
+.post-title {
+	margin-left:30%;
+	margin-right:30%;
+}
 .game {
 	width:100%;
 }
 
-#profilepic {
+#homepic {
 	width:40%;
 	height:auto;
-	margin-left:2%;
+	margin:auto;
 }
 
 a {
@@ -52,4 +62,8 @@ img {
 
 p {
 	font-size: 1em;
+}
+
+#welcome {
+	font-size: 2em;
 }
